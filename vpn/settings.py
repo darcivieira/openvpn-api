@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'rest_framework.authtoken',
+    'oauth2_provider',
 
     'core',
     'openvpn',
@@ -140,6 +141,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
     # 'DEFAULT_AUTHENTICATION_CLASSES': (
+    #     'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
     #     'rest_framework.authentication.TokenAuthentication',
     # ),
     # 'DEFAULT_PERMISSION_CLASSES': (
